@@ -28,9 +28,13 @@ export default function RootLayout({
           </a>
 
           <div style={{ display: "flex", gap: "20px" }}>
-            <a href="/about">About</a>
-            <a href="/contact">Are You Ready to Whirl?</a>
-          </div>
+  <a href="/">Home</a>
+  <a href="/contact">Are You Ready to Whirl?</a>
+  <a href="/services">Services</a>
+  <a href="/we-love">We Love</a>
+  <a href="/already-whirling">Already Whirling?</a>
+  <a href="/about-us">About Us</a>
+</div>
         </nav>
 
         {children}
